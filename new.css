@@ -1,0 +1,77 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sans-serif;
+
+}
+body{
+    overflow: hidden;
+}
+
+.main{
+
+    background-image: url('https://images.hdqwalls.com/wallpapers/razer-colorful-abstract-4k-zy.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.nav{
+    width: 100%;
+    margin-left: 80%;
+    padding: 15px;
+    
+}
+
+a{
+    color: #FE6902 ;
+    text-decoration: none;
+    
+}
+.nav ul li{
+    
+    display: inline-block;
+    font-size: 30px;
+    
+}
+.contact form{
+    padding: 10%;
+    margin: -5%;
+    
+}
+.contact input{
+    padding: 15px;
+    margin: 55px;
+    height: 10%;
+    font-size: 30px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 3px solid #42FE2F;
+    color: #2F4FCD;
+}
+.contact ::placeholder{
+    padding: 25%;
+    color: #2F4FCD;
+    font-weight: 600;
+    font-style: italic;
+    font-size: 34p;
+}
+.contact h1{   
+    font-size: 85px;
+    color: #FE6902;
+    
+}
+.contact button{
+    padding: 18px;
+    background: green;
+    font-size: 20px;
+    border-radius: 15px;
+    color: #FE6902;
+    outline: none;
+    border: none;
+
+}
+.contact button:hover{
+    background-color:hotpink;
+    transform: translateY(0) scale(1.2);
+    
+}

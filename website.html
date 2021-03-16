@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>website</title>
+    <link rel="icon" href="icon.png" type="image/x-icon"/>
+    <link rel="stylesheet" href="design.css" />
+  </head>
+  <body>
+   
+    <div class="main">
+        <center>
+      <div class="nav">
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">About us</a></li>
+          <li><a href="new1.html">Contact us</a></li>
+          <li><a href="#login-form">Login</a></li>
+          <li><a href="#register-form" id="reg" onclick="openRegisterForm()">Registration</a> </li>
+        </ul>
+      </div>
+    </center>
+    
+      <div class="login" id="login-form">
+          <h1>Login</h1>
+        <input type="text" placeholder="email" required />
+        <input type="password" placeholder="password" required />
+        <button>Login</button>
+      </div>
+      <div class="register" id="register-form">
+          <h1>Registration</h1>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <input type="text" placeholder="Email" required>
+        <input type="password" placeholder="Password">
+        <button>Register</button>
+        
+    </div>
+    
+    <script>
+        function openRegisterForm(){
+            document.querySelectorAll(".main")[0].style.marginLeft= "25%";
+        }
+    </script>
+  </body>
+</html>
